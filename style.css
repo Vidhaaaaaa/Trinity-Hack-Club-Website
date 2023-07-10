@@ -52,13 +52,13 @@ hr {
 
 #division {
   display: flex;
-  width: 33%;
+  width: 50%;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 #icons-box {
-  width: 33%;
+  width: 50%;
 }
 
 #navbar {
@@ -77,39 +77,18 @@ hr {
   justify-content: flex-end;
 }
 
+.icon {
+  margin: 10px 5px;
+}
+
 .nav-icons {
   height: 40px;
   width: 40px;
+  padding: 0px 6px;
 }
 
-#discord-logo {
-  border-radius: 70%;
-  background-color: white;
-  overflow: hidden;
-}
-
-#mail-logo {
-  border-radius: 50%;
-}
-
-#insta-logo {
-  border-radius: 50%;
-}
-
-#github-logo {
-  border-radius: 50%;
-}
-
-#linkedin-logo {
-  border-radius: 50%;
-}
-
-/* Navigation Bar: logo and image */
-
-#logo-image {
-  height: 90px;
-  width: 135px;
-  padding: 0px 8px;
+svg {
+  fill: white;
 }
 
 /* navbar hyperlink buttons */
@@ -117,7 +96,7 @@ hr {
 #navbar-button {
   font-size: 30px;
   height: 50px;
-  padding: 10px;
+  padding: 10px 20px;
   background-color: transparent;
   border: transparent;
   color: white;
@@ -126,7 +105,7 @@ hr {
 }
 
 #navbar-button:hover {
-  background-color: gray;
+  color: gray;
 }
 
 /* Banner */
@@ -151,10 +130,6 @@ hr {
   height: 800px;
   filter: brightness(90%);
   transition-duration: 0.4s;
-}
-#banner_image:hover {
-  content: url("images/hover6.png");
-  border-radius: 50%;
 }
 
 /* Banner Image and Text */
@@ -338,7 +313,7 @@ hr {
 
 #theteam-section {
   /* opacity: 80%; */
-  background: url("/images/banner3.png");
+  background: url("/images/tryingbg.png");
   height: 485px;
   display: inline-block;
   width: 100%;
@@ -437,48 +412,6 @@ hr {
   font-family: "Dosis", sans-serif;
 }
 
-/* Footer Section */
-
-#linktree-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 20px;
-}
-
-.linktree-link-font {
-  font-size: 25px;
-}
-
-#the-coding-spirits-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.the-coding-spirits-font {
-  font-size: 26px;
-  color: white;
-  -webkit-text-stroke: 1.5px black;
-}
-
-#trademark-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.trademark-font {
-  font-size: 20px;
-}
-
-#github-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 40px;
-}
-
 /* icons bar neeche */
 
 .navbar2 {
@@ -514,4 +447,33 @@ hr {
 #epoch-iframe {
   margin-left: 35vw;
   margin-bottom: 60px;
+}
+
+/* Footer Section */
+
+#footer {
+  background-color: #2e2f2c;
+}
+
+#footer-logo-container {
+  width: 50%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hackclub-trinity-icon {
+  height: auto;
+  width: 65px;
+  border-radius: 50%;
+}
+
+#footer-name-container {
+  margin: 0px 10px;
+}
+
+#footer-name {
+  color: white;
+  font-size: 35px;
 }
