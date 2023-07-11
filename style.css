@@ -27,8 +27,9 @@ html {
   font-size: 75px;
   margin-left: 110px;
   margin-top: 20px;
-  letter-spacing: 2px;
-  font-family: "Calistoga", cursive;
+  letter-spacing: -1px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
 }
 
 .paragraph-text {
@@ -67,6 +68,9 @@ hr {
   width: 100%;
   align-items: center;
   background: linear-gradient(rgba(0, 0, 0, 0.9), 75%, transparent);
+  /* background: rgba(0, 0, 0, 0.5); */
+  backdrop-filter: blur(10px);
+  height: 70px;
 }
 
 /* Navigation Bar: Icons */
@@ -82,8 +86,8 @@ hr {
 }
 
 .nav-icons {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: auto;
   padding: 0px 6px;
 }
 
@@ -96,12 +100,12 @@ svg {
 #navbar-button {
   font-size: 30px;
   height: 50px;
-  padding: 10px 20px;
+  padding: 5px 3px;
   background-color: transparent;
   border: transparent;
   color: white;
   transition-duration: 0.2s;
-  font-family: "Shantell Sans", cursive;
+  font-family: "Poppins", sans-serif;
 }
 
 #navbar-button:hover {
@@ -174,7 +178,6 @@ svg {
 
 #about-heading {
   color: white;
-  letter-spacing: 3px;
 }
 
 #background-about-section {
@@ -209,6 +212,8 @@ svg {
   margin-left: 110px;
   font-size: 29px;
   color: white;
+  font-weight: lighter;
+  font-family: "Dosis", sans-serif;
 }
 
 .about-text-neeche {

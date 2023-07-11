@@ -15,3 +15,10 @@ const insertIcon = document.querySelectorAll(".icon");
 insertIcon.forEach((a, i) => {
   a.innerHTML = arr[i];
 });
+
+function changeZindex() {
+  document.getElementById("navbar").style.zIndex = "2";
+}
+
+changeZindex()
+
